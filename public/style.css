@@ -1,0 +1,59 @@
+nav {
+    background-color: #5afad4;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    color: gray;
+    width: 100%;
+    font-size: large;
+    background-color: #5afad4;
+}
+
+p {
+    margin-top: auto;
+
+}
+
+.card-text {
+    font-size: 23px;
+}
+
+.card-img-shadow {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.menu-card-border {
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-color: #5afad4 !important;
+    border-radius: 8px !important;
+}
+.main-menu-card{
+    transition: all 0.75s;
+}
+.main-menu-card:hover {
+    background-color: #5afad4;
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.meds-name {
+    font-size: 30px;
+}
+
+.daily-dose-card {
+    border: 3px solid #1effca;
+    border-radius: 15px;
+}
+.daily-dose-scrollable {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.meditime-footer {
+    position: fixed;
+}
