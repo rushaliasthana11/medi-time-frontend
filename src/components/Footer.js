@@ -5,8 +5,8 @@ function Footer() {
     const date = new Date().getFullYear();
     return (<footer className="meditime-footer bg-dark text-center text-white">
     <div className="text-center p-3">
-      © {date} Copyright: 
-      <a className="text-white" href="/"> MediTime.com</a>
+      © {date} Copyright:
+      <a className="text-white" href="/">  Rushali Asthana, SDE Lenskart.com</a>
     </div>
   </footer>)
 }
